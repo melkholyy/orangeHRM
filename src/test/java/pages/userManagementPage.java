@@ -121,11 +121,7 @@ public class userManagementPage {
         deleteRecordButton.click();
         WebElement confirmDelete = wait.until(ExpectedConditions.elementToBeClickable(confirmDeleteButton));
         confirmDelete.click();
-        //WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(searchUsernameInput));
         driver.get(driver.getCurrentUrl());
         driver.get(driver.getCurrentUrl());
-        // searchInput.clear();
-        // searchInput.sendKeys("");
-        // searchInput.sendKeys(org.openqa.selenium.Keys.ENTER);
     }
 }
